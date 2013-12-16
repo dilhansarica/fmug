@@ -1,0 +1,79 @@
+@import "compass";
+@import "compass/reset";
+@import "foundation/variables";
+
+$legacy-support-for-ie6:false;
+$legacy-support-for-ie7:false;
+
+$header-font-color: #fff;
+$header-font-weight: normal;
+$header-top-margin: .5em;
+
+$collapse : true;
+
+$cat6 : #004b93;
+$cat4 : #6377ba;
+$cat7 : #5B8093;//grey
+$cat0 : #5a8093;
+$cat1 : #b470b1;
+$cat2 : #00ad90;
+$cat3 : #97b955;
+$cat5 : #3dabd5;
+
+$anchor-font-color: #fff;
+$anchor-font-color-hover: #fff;
+
+$em-base: 16px !default;
+
+$column-gutter: emCalc(30px);
+$h1-font-size: emCalc(25px);
+$h2-font-size: emCalc(25px);
+$h3-font-size: emCalc(18px);
+
+$body-font-family: Arial, sans-serif;
+$header-font-family: Arial, sans-serif;
+
+$row-width: emCalc(1057px);
+
+$panel-padding: emCalc(5px)  emCalc(20px);
+$panel-bg:#f5f5f5;
+
+$crumb-bg:#fff;
+$crumb-font-color: #000;
+$crumb-border-size: 0px;
+$crumb-font-transform: inherit;
+$crumb-slash: ">";
+$crumb-font-size: emCalc(14px);
+
+$inline-list-opposite-margin:10px;
+$inline-list-top-margin:20px;
+$inline-list-opposite-margin:20px;
+$inline-list-bottom-margin: 10px;
+$inline-list-default-float-margin: 0px;
+
+$block-grid-default-spacing: (30px);
+
+@import "foundation/components/global";
+@import "foundation/components/grid";
+@import "foundation/components/visibility";
+@import "foundation/components/block-grid";
+/*TYPE*/
+@import "foundation/components/type";
+@import "foundation/components/inline-lists";
+@import "foundation/components/breadcrumbs";
+@import "foundation/components/panels";
+
+
+$colorsStyle : red violet seagreen green cyan blue grey;
+
+$bgbt-spacing:3px;
+@import "bgbt/*.png";
+@import "thumbplayerover/*.png";
+@import "icomobile/*.png";
+
+.clearfix{
+    @include clearfix;
+}
+.clear{
+	clear:both;
+}
